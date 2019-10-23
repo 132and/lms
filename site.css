@@ -1,0 +1,49 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #ececec;
+    background: #00050b;
+    line-height: 2;
+    letter-spacing: 0;
+    text-align: justify!important;
+    margin: 0;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.topnav a {
+    float: right;
+    color: #ececec;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:#ececec;
+    color: #00050b;
+}
+
+/* Cor quando o menu estiver selecionado */
+
+.topnav a.active {
+    background-color:#ececec;
+    color: #00050b;
+}
+
+
+.topnav .logo{
+    float: left;
+    max-height: 44px;
+    transition: opacity .3s;
+    margin-top: 14px;
+    border: 0;
+    vertical-align: middle;
+};
