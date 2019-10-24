@@ -1,0 +1,61 @@
+.wrapper-disciplina {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    background: white;
+    margin-top: 80px;
+    padding: 40px;
+    color: #00050b;
+}
+
+.box-imagem-disciplina {
+    height: 250px;
+    width: 100%;
+    box-shadow: #000000 1px 1px 4px;
+}
+
+.box-descricao-disciplina {
+    height: 250px;
+    width: 100%;
+    padding: 20px;
+}
+
+.box-descricao-disciplina .title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box-descricao-disciplina .description {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.imagem {
+    width: inherit;
+    height: inherit;
+}
+
+.wrapper-materias {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    margin-top: 20px;
+    padding: 40px;
+    color: white;
+}
+
+.wrapper-materias .item {
+    height: 250px;
+    padding: 15px;
+}
+
+.wrapper-materias .item .title {
+    font-weight: 500;
+    color: #116fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper-materias .item .description {
+    font-size: 12px;
+    text-align: justify;
+}
