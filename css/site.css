@@ -56,10 +56,12 @@ body {
 /*-----end header style-----*/
 
 .footer {
-    background: #00050b;
+    background:  #ececec;
+    color: #00050b;
     width: 100%;
     height: 100px;
     position: relative;
     bottom: -1;
     left: 0;
+
 }
